@@ -1,6 +1,6 @@
-# 📅 Day 1: Java Basics & First Code
+# 📅 Day 2: Java Basics & First Code
 
-Since our initial first day was cut short by a power cut and we only had an introduction, today we officially kicked off the coding part of the training!
+Since Day 1 was mostly an introduction, today we officially kicked off the coding part of the training!
 
 ---
 

@@ -21,8 +21,10 @@
 To keep things organized, I am creating individual folders for each day of the training. Inside each folder, you will find the source code, notes, and practical exercises corresponding to that day's class.
 
 ### 🚀 Quick Navigation
-<a href="./Day_1/README.md">
-  <img src="https://img.shields.io/badge/📅_Go_To_Day_1-FF9900?style=for-the-badge&logo=java&logoColor=white" alt="Day 1 Button"/>
+* **Day 1:** General Introduction to the UPS Training Program. (No coding, just setup)
+
+<a href="./Day_2/README.md">
+  <img src="https://img.shields.io/badge/📅_Go_To_Day_2-FF9900?style=for-the-badge&logo=java&logoColor=white" alt="Day 2 Button"/>
 </a>
 
 <br/>

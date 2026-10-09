@@ -1,4 +1,4 @@
-# 📅 Day 2: Java Basics & First Code
+# 📅 Day 2: Java Basics & Core Concepts
 
 Since Day 1 was mostly an introduction, today we officially kicked off the coding part of the training!
 
@@ -48,35 +48,43 @@ We learned about the different types of data we can store in Java:
 * **Primitive Data Types:** `byte`, `short`, `int`, `long`, `float`, `double`, `boolean`, `char`
 * **Non-Primitive Data Types:** `String`, Arrays, Classes, etc.
 
+### 3. Control Flow & Loops
+Today, we covered a lot of foundational ground in Java! We learned:
+* **Conditionals:** `if`, `else if`, `else`, and **nested if** statements.
+* **Switch Case:** Using switch statements to simplify multiple conditions.
+* **Loops:** Exploring `while` loops and `for` loops to repeat operations.
+* **Input Taking:** Using `Scanner` to read dynamic input from the user.
+
 ---
 
-## 💻 Coding Outputs
+## 💻 Coding Exercises & Outputs
 
-### First Ever Code Written!
+### 1. First Ever Code Written!
 This was our very first program to get our hands dirty with Java.
-
 ![Coding Outputs - First Code](./first_code.png)
 
-### Positive/Negative Number Check
-We were then given a task to write and execute a program that checks whether a given number is positive or not using a ternary operator.
-
-**The Code We Wrote:**
-```java
-class A {
-    public static void main(String[] a) {
-        int number = -10;
-        System.out.println(number > 0 ? number + " is positive" : number + " is not positive");
-    }
-}
-```
-
-**The Output:**
+### 2. Positive/Negative Number Check
+Using the ternary operator to check for positive/negative numbers.
 ![Coding Outputs - Execution](./output.png)
+
+### 3. Odd / Even Check (if-else)
+Checking if a number is odd or even using the modulo operator.
+![Odd Check Output](./odd_check_output.png)
+
+### 4. Login Validation (Nested If)
+A mock login system using nested if conditions to validate username and password sequentially.
+![Login Validation Output](./login_check_output.png)
+
+### 5. Multiplication Table (Scanner & For Loop)
+Taking start and end ranges as input and printing a multiplication table using a for loop.
+![Multiplication Table Output](./table_output.png)
 
 ---
 
-## ⏭️ What's Next? (Tomorrow)
-For tomorrow's class, we are gearing up to learn:
-1. **Decision Making** (if-else, switch cases)
-2. **Looping** (for, while, do-while loops)
-3. **Methods**
+## 📝 Homework
+Homework was given to practice these new concepts:
+1. Sum of numbers
+2. Factorial
+3. Number of digits
+
+*(The files for these are already present in this folder!)*

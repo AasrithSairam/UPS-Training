@@ -39,6 +39,10 @@ To keep things organized, I am creating individual folders for each day of the t
   <img src="https://img.shields.io/badge/📅_Go_To_Day_5-FF9900?style=for-the-badge&logo=java&logoColor=white" alt="Day 5 Button"/>
 </a>
 
+<a href="./Day_6/README.md">
+  <img src="https://img.shields.io/badge/📅_Go_To_Day_6-FF9900?style=for-the-badge&logo=java&logoColor=white" alt="Day 6 Button"/>
+</a>
+
 <br/>
 
 *(Folders are added daily as the classes progress.)*

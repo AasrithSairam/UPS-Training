@@ -345,7 +345,7 @@ graph TD
    - Represents the data model with private fields `id` and `name`, public constructor, and getters/setters.
 2. **Data Access Object (`StudentDao.java`)**:
    - Directly interacts with `students.txt` file storage.
-   - `writeStudent()`: Appends `id,name` records using `BufferedWriter` in append mode.
+   - `writeStudent()`: Captures current timestamp using `java.time.LocalDateTime` and appends `id,name (Added: dd-MM-yyyy HH:mm)` records using `BufferedWriter` in append mode.
    - `readStudents()`: Reads records line by line using `BufferedReader`.
    - `deleteStudent()`: Filters out records matching `targetId` and rewrites remaining entries.
 3. **Service Layer (`StudentService.java`)**:

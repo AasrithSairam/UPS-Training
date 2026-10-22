@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
-public class Main{
-    public static void main(String[] args){
+public class Main {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         StudentService service = new StudentService();
         boolean running = true;
 
         System.out.println("Welcome to the Student Management System!");
 
-        while (running){
+        while (running) {
             System.out.println("\n1. Add Student  2. View Students  3. Delete Student  4. Exit");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
 
-            switch (choice){
+            switch (choice) {
                 case 1:
                     System.out.print("Enter Student ID: ");
                     int id = sc.nextInt();

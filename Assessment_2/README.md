@@ -1,4 +1,4 @@
-# 📝 Assessment 2: Java Practical Test (10 Problems)
+#  Assessment 2: Java Practical Test (10 Problems)
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 1. [Overview](#-overview)
 2. [Problem Solutions & Explanations](#-problem-solutions--explanations)
    - [1. Number Pattern and Loops: Armstrong Numbers (`Armstrong.java`)](#1-number-pattern-and-loops-armstrong-numbers-armstrongjava)
@@ -24,11 +24,11 @@
    - [8. Multithreading – Producer-Consumer Communication (`ProducerConsumer.java`)](#8-multithreading--producer-consumer-communication-producerconsumerjava)
    - [9. File Handling – Student Records (`StudentFileRecords.java`)](#9-file-handling--student-records-studentfilerecordsjava)
    - [10. Mini Project – Employee Record Manager (`EmployeeManager.java`)](#10-mini-project--employee-record-manager-employeemanagerjava)
-3. [🚀 Compilation & Execution Guide](#-compilation--execution-guide)
+3. [ Compilation & Execution Guide](#-compilation--execution-guide)
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 This assessment encompasses 10 core practical programming challenges testing fundamental to advanced Java capabilities:
 * **Algorithmic thinking**: Loops, digits extraction, and non-sorting array traversal.
@@ -39,7 +39,7 @@ This assessment encompasses 10 core practical programming challenges testing fun
 
 ---
 
-## 💻 Problem Solutions & Explanations
+##  Problem Solutions & Explanations
 
 ### 1. Number Pattern and Loops: Armstrong Numbers (`Armstrong.java`)
 * **Objective:** Print all Armstrong numbers between 1 and 1000 using loops without built-in methods.
@@ -159,7 +159,7 @@ This assessment encompasses 10 core practical programming challenges testing fun
 
 ---
 
-## 🚀 Compilation & Execution Guide
+##  Compilation & Execution Guide
 
 Compile all assessment programs:
 ```powershell
@@ -183,5 +183,5 @@ java -cp Assessment_2 EmployeeManager
 ---
 
 <p align="center">
-  <i>Documented and maintained with ❤️ by Ponguru Aasrith Sairam</i>
+  <i>Documented and maintained by Ponguru Aasrith Sairam</i>
 </p>

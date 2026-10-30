@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <style>
+        .top-bottom-bar {
+            background-color: blue;
+            height: 160px;
+            width: 120%;
+        }
+
+        .flex-row {
+            display: flex;
+            width: 100%;
+        }
+
+        .box {
+            flex: 1;
+            height: 130px;
+        }
+
+        .bg-red {
+            background-color: red;
+        }
+
+        .bg-yellow {
+            background-color: yellow;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+
+        .bg-purple {
+            background-color: purple;
+        }
+
+        .bg-orange {
+            background-color: orange;
+        }
+
+        .bg-gray {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>layout</h1>
+
+    <div class="top-bottom-bar"></div>
+    <div>section 0</div>
+
+    <div class="flex-row">
+        <div class="box bg-red">section 1: article 1</div>
+        <div class="box bg-yellow">section 1: article 3</div>
+        <div class="box bg-green">section 1: article 2</div>
+    </div>
+
+    <div class="flex-row">
+        <div class="box bg-purple">section 2: article 4</div>
+        <div class="box bg-orange">section 2: article 6</div>
+        <div class="box bg-gray">section 2: article 5</div>
+    </div>
+
+    <div>section 5</div>
+    <div class="top-bottom-bar"></div>
+
+</body>
+
+</html>

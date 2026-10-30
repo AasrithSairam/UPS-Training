@@ -1,0 +1,171 @@
+<html>
+
+<head>
+
+    <title>Game Store</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        header,
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+        }
+
+        header nav {
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        header a {
+            color: white;
+            margin-right: 10px;
+        }
+
+        #head {
+            margin-left: 600px;
+            color: red;
+        }
+
+        #gta-banner {
+            width: 96%;
+            height: 350px;
+            margin-left: 2%;
+            margin-top: 20px;
+            border-radius: 20px;
+            object-fit: cover;
+            object-position: center 20%;
+        }
+
+        img {
+            border-radius: 20px;
+            height: 100px;
+            width: 100px;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            padding: 5px;
+            border: none;
+            transition: transform 0.2s ease-in;
+        }
+
+        #container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin: 20px;
+            gap: 50px;
+        }
+
+        .card {
+            padding-top: 30px;
+            text-align: center;
+            height: 250px;
+            width: 170px;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: #222;
+            color: white;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+            border-color: red;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="head">GameZone</h1>
+        <nav>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+            <a href="#">login</a>
+            <a href="#">register</a>
+        </nav>
+    </header>
+
+
+    <img id="gta-banner"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfKW_ZSo5Y8SKXneVuWpZ2Emb7FncjKkmhO5dKybTj3616Z1LZwZbSWiY&s=10"
+        alt="GTA 6 Banner Image">
+
+    <main>
+        <div id="container">
+            <div class="card">
+                <img src="https://picsum.photos/id/1/300/200" alt="game cover">
+                <h4>Shooter Game</h4>
+                <p>Price : 500 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/2/300/200" alt="game cover">
+                <h4>Racing Game</h4>
+                <p>Price : 550 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/3/300/200" alt="game cover">
+                <h4>adventure game</h4>
+                <p>Price : 300 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/4/300/200" alt="game cover">
+                <h4>Action game</h4>
+                <p>Price : 600 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/5/300/200" alt="game cover">
+                <h4>Sports Game</h4>
+                <p>Price : 340 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/6/300/200" alt="game cover">
+                <h4>Horror Game</h4>
+                <p>Price : 500 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/7/300/200" alt="game cover">
+                <h4>War Game</h4>
+                <p>Price : 400 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/8/300/200" alt="game cover">
+                <h4>Fighting Game</h4>
+                <p>Price :550 rs</p>
+                <button>Buy now</button>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/id/9/300/200" alt="game cover">
+                <h4>2D Game</h4>
+                <p>Price : 150 rs</p>
+                <button>Buy now</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>GG Well Played</h1>
+        <h4>www.gamezone.com &copy;</h4>
+    </footer>
+</body>
+
+</html>
